@@ -5,7 +5,7 @@ export default function Navbar() {
     const [i, set] = useState(0)
     return (
         <div>
-            <ul className="nav justify-content-center nav-tabs bg-primary pt-5">
+            <ul className="nav progress-bar-striped justify-content-center nav-tabs bg-primary pt-5">
                 <li className="nav-item">
                     <Link to="/" className={i===0?"nav-link active":"nav-link"} aria-current="page" onClick={()=>set(0)}>Home</Link>
                 </li>
