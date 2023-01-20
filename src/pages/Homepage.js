@@ -24,14 +24,14 @@ export default function Homepage() {
       </div>
       <div className='row'>
         <div className='col'>
-          <div className='card bg-primary'>
+          <div className='card bg-primary progress-bar-striped bg-primary'>
             <div className='card-body '>
               <div className='row'>
-                <div className='col-md-6 col-sm-12 d-flex align-items-center justify-content-center'>
-                  <img src='https://avatars.githubusercontent.com/u/52573759?v=4' alt='Turtlebeasts' style={{borderRadius:'50%'}} className="img-fluid"/>
+                <div className='col-md-6 col-sm-12 d-flex align-items-center justify-content-center pt-5 pb-5'>
+                  <img src='https://avatars.githubusercontent.com/u/52573759?v=4' alt='Turtlebeasts' width={"30%"} style={{borderRadius:'50%'}} className="img-fluid"/>
                 </div>
                 <div className='col-md-6 col-sm-12 d-flex align-items-center justify-content-center'>
-                  <p><i className='fs-4'>Contribute to this repository using your code, if there is any error or mistakes, then feel free to send a PR.</i></p>
+                  <p><i className='fs-4'>Contribute to this repository using your code, if there is any error or mistakes, then feel free to send a PR. <a href='https://github.com/turtlebeasts/javascript_practice'>~Turtlebeasts</a></i></p>
                 </div>
               </div>
             </div>
