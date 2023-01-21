@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider, Loader } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Homepage from "./pages/Homepage";
 import About from "./pages/About";
@@ -25,8 +25,6 @@ const exercises = [
     component: <Time/>
   },
 ]
-
-const exeComps = [<Q1/>,<Q2/>]
 
 const router = createBrowserRouter([
   {
